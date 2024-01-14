@@ -1,29 +1,33 @@
-// 89. Gray Code.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// 62. Unique Paths.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-#include <vector>
-#include <bitset>
-
-using namespace std;
-
 
 class Solution {
-public:
-    vector<int> grayCode(int n) {
-        vector<int> result(1, 0);
 
-        for (int i = 0; i < n; i++) {
-            int sz = result.size();
-            for (int j = sz - 1; j >= 0; j--) {
-                result.push_back(result[j] | 1 << i);
-            }
+    int generateMap(int i, int j) {
+
+        if (i <= 1 || j <= 1) {
+            return 1;
         }
 
-        return result;
+        if (map[i][j] != 0) {
+            return map[i][j];
+        }
+
+        map[i][j] = generateMap(i - 1, j) + generateMap(i, j - 1);
+        return map[i][j];
+    }
+
+    static int map[101][101];
+
+public:
+    int uniquePaths(int m, int n) {
+        return generateMap(m, n);
     }
 };
 
+int Solution::map[101][101] = { 0 };
 
 int main()
 {

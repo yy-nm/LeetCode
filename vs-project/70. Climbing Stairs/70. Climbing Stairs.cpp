@@ -1,29 +1,34 @@
-// 89. Gray Code.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// 70. Climbing Stairs.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-#include <vector>
-#include <bitset>
-
-using namespace std;
-
 
 class Solution {
-public:
-    vector<int> grayCode(int n) {
-        vector<int> result(1, 0);
 
-        for (int i = 0; i < n; i++) {
-            int sz = result.size();
-            for (int j = sz - 1; j >= 0; j--) {
-                result.push_back(result[j] | 1 << i);
-            }
+    static int kStairs[46];
+
+    int generate(int n) {
+
+        if (n <= 1)
+            return 1;
+
+        if (kStairs[n] == 0) {
+            kStairs[n] = generate(n - 1) + generate(n - 2);
         }
+
+        return kStairs[n];
+    }
+
+public:
+    int climbStairs(int n) {
+        int result = generate(n);
+
 
         return result;
     }
 };
 
+int Solution::kStairs[46] = { 1, 1 };
 
 int main()
 {

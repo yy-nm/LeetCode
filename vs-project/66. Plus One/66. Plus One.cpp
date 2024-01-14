@@ -1,29 +1,40 @@
-// 89. Gray Code.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// 66. Plus One.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
 #include <vector>
-#include <bitset>
 
 using namespace std;
 
-
 class Solution {
 public:
-    vector<int> grayCode(int n) {
-        vector<int> result(1, 0);
+    vector<int> plusOne(vector<int>& digits) {
 
-        for (int i = 0; i < n; i++) {
-            int sz = result.size();
-            for (int j = sz - 1; j >= 0; j--) {
-                result.push_back(result[j] | 1 << i);
+        bool bGoToNext = true;
+
+        for (int i = digits.size() - 1; i >= 0; i--) {
+            if (bGoToNext) {
+                bGoToNext = false;
+                digits[i] += 1;
+            }
+
+            if (digits[i] >= 10) {
+                digits[i] -= 10;
+                bGoToNext = true;
+            }
+            else {
+                break;
             }
         }
 
-        return result;
+        if (bGoToNext) {
+            digits.insert(digits.begin(), 1);
+        }
+
+
+        return digits;
     }
 };
-
 
 int main()
 {

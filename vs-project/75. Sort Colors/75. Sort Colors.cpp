@@ -1,29 +1,28 @@
-// 89. Gray Code.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// 75. Sort Colors.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
 #include <vector>
-#include <bitset>
 
 using namespace std;
 
-
 class Solution {
 public:
-    vector<int> grayCode(int n) {
-        vector<int> result(1, 0);
-
-        for (int i = 0; i < n; i++) {
-            int sz = result.size();
-            for (int j = sz - 1; j >= 0; j--) {
-                result.push_back(result[j] | 1 << i);
-            }
+    void sortColors(vector<int>& nums) {
+        int count[3] = { 0, 0, 0 };
+        for (const auto& it : nums) {
+            count[it] ++;
         }
 
-        return result;
+        nums.clear();
+        for (int i = 0; i < 3; i++) {
+            auto& v = count[i];
+            while (v-- > 0) {
+                nums.emplace_back(i);
+            }
+        }
     }
 };
-
 
 int main()
 {
