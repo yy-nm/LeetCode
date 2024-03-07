@@ -239,6 +239,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "142. Linked List Cycle II",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "143. Reorder List", "143. Reorder List\143. Reorder List.vcxproj", "{869659CF-AEFC-4F7C-B8C4-5011A6AAF8F1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "144. Binary Tree Preorder Traversal", "144. Binary Tree Preorder Traversal\144. Binary Tree Preorder Traversal.vcxproj", "{DF0D97B6-1F83-4C16-96C0-27C345591DD4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "145. Binary Tree Postorder Traversal", "145. Binary Tree Postorder Traversal\145. Binary Tree Postorder Traversal.vcxproj", "{FE58CC23-FB77-4C32-A6AA-C75BD31F1634}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1191,6 +1195,22 @@ Global
 		{869659CF-AEFC-4F7C-B8C4-5011A6AAF8F1}.Release|Win32.Build.0 = Release|Win32
 		{869659CF-AEFC-4F7C-B8C4-5011A6AAF8F1}.Release|x64.ActiveCfg = Release|x64
 		{869659CF-AEFC-4F7C-B8C4-5011A6AAF8F1}.Release|x64.Build.0 = Release|x64
+		{DF0D97B6-1F83-4C16-96C0-27C345591DD4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DF0D97B6-1F83-4C16-96C0-27C345591DD4}.Debug|Win32.Build.0 = Debug|Win32
+		{DF0D97B6-1F83-4C16-96C0-27C345591DD4}.Debug|x64.ActiveCfg = Debug|x64
+		{DF0D97B6-1F83-4C16-96C0-27C345591DD4}.Debug|x64.Build.0 = Debug|x64
+		{DF0D97B6-1F83-4C16-96C0-27C345591DD4}.Release|Win32.ActiveCfg = Release|Win32
+		{DF0D97B6-1F83-4C16-96C0-27C345591DD4}.Release|Win32.Build.0 = Release|Win32
+		{DF0D97B6-1F83-4C16-96C0-27C345591DD4}.Release|x64.ActiveCfg = Release|x64
+		{DF0D97B6-1F83-4C16-96C0-27C345591DD4}.Release|x64.Build.0 = Release|x64
+		{FE58CC23-FB77-4C32-A6AA-C75BD31F1634}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FE58CC23-FB77-4C32-A6AA-C75BD31F1634}.Debug|Win32.Build.0 = Debug|Win32
+		{FE58CC23-FB77-4C32-A6AA-C75BD31F1634}.Debug|x64.ActiveCfg = Debug|x64
+		{FE58CC23-FB77-4C32-A6AA-C75BD31F1634}.Debug|x64.Build.0 = Debug|x64
+		{FE58CC23-FB77-4C32-A6AA-C75BD31F1634}.Release|Win32.ActiveCfg = Release|Win32
+		{FE58CC23-FB77-4C32-A6AA-C75BD31F1634}.Release|Win32.Build.0 = Release|Win32
+		{FE58CC23-FB77-4C32-A6AA-C75BD31F1634}.Release|x64.ActiveCfg = Release|x64
+		{FE58CC23-FB77-4C32-A6AA-C75BD31F1634}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
