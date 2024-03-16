@@ -249,6 +249,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "147. Insertion Sort List", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "148. Sort List", "148. Sort List\148. Sort List.vcxproj", "{85569AB7-6BD6-415B-8F3A-FA0ED0294046}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "134. Gas Station", "134. Gas Station\134. Gas Station.vcxproj", "{4A139949-7CFC-4265-A99D-B9FFE2E018D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "135. Candy", "135. Candy\135. Candy.vcxproj", "{299D5A5E-4A60-429C-9B91-3989C3347A48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1241,6 +1245,22 @@ Global
 		{85569AB7-6BD6-415B-8F3A-FA0ED0294046}.Release|Win32.Build.0 = Release|Win32
 		{85569AB7-6BD6-415B-8F3A-FA0ED0294046}.Release|x64.ActiveCfg = Release|x64
 		{85569AB7-6BD6-415B-8F3A-FA0ED0294046}.Release|x64.Build.0 = Release|x64
+		{4A139949-7CFC-4265-A99D-B9FFE2E018D6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4A139949-7CFC-4265-A99D-B9FFE2E018D6}.Debug|Win32.Build.0 = Debug|Win32
+		{4A139949-7CFC-4265-A99D-B9FFE2E018D6}.Debug|x64.ActiveCfg = Debug|x64
+		{4A139949-7CFC-4265-A99D-B9FFE2E018D6}.Debug|x64.Build.0 = Debug|x64
+		{4A139949-7CFC-4265-A99D-B9FFE2E018D6}.Release|Win32.ActiveCfg = Release|Win32
+		{4A139949-7CFC-4265-A99D-B9FFE2E018D6}.Release|Win32.Build.0 = Release|Win32
+		{4A139949-7CFC-4265-A99D-B9FFE2E018D6}.Release|x64.ActiveCfg = Release|x64
+		{4A139949-7CFC-4265-A99D-B9FFE2E018D6}.Release|x64.Build.0 = Release|x64
+		{299D5A5E-4A60-429C-9B91-3989C3347A48}.Debug|Win32.ActiveCfg = Debug|Win32
+		{299D5A5E-4A60-429C-9B91-3989C3347A48}.Debug|Win32.Build.0 = Debug|Win32
+		{299D5A5E-4A60-429C-9B91-3989C3347A48}.Debug|x64.ActiveCfg = Debug|x64
+		{299D5A5E-4A60-429C-9B91-3989C3347A48}.Debug|x64.Build.0 = Debug|x64
+		{299D5A5E-4A60-429C-9B91-3989C3347A48}.Release|Win32.ActiveCfg = Release|Win32
+		{299D5A5E-4A60-429C-9B91-3989C3347A48}.Release|Win32.Build.0 = Release|Win32
+		{299D5A5E-4A60-429C-9B91-3989C3347A48}.Release|x64.ActiveCfg = Release|x64
+		{299D5A5E-4A60-429C-9B91-3989C3347A48}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
