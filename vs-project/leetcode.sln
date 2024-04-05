@@ -299,6 +299,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "203. Remove Linked List Ele
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "206. Reverse Linked List", "206. Reverse Linked List\206. Reverse Linked List.vcxproj", "{5F93E3B3-80D1-44AF-8482-42957F739CFF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "207. Course Schedule", "207. Course Schedule\207. Course Schedule.vcxproj", "{4CCE1950-521C-41AD-AB37-368F650465B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1491,6 +1493,14 @@ Global
 		{5F93E3B3-80D1-44AF-8482-42957F739CFF}.Release|Win32.Build.0 = Release|Win32
 		{5F93E3B3-80D1-44AF-8482-42957F739CFF}.Release|x64.ActiveCfg = Release|x64
 		{5F93E3B3-80D1-44AF-8482-42957F739CFF}.Release|x64.Build.0 = Release|x64
+		{4CCE1950-521C-41AD-AB37-368F650465B8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4CCE1950-521C-41AD-AB37-368F650465B8}.Debug|Win32.Build.0 = Debug|Win32
+		{4CCE1950-521C-41AD-AB37-368F650465B8}.Debug|x64.ActiveCfg = Debug|x64
+		{4CCE1950-521C-41AD-AB37-368F650465B8}.Debug|x64.Build.0 = Debug|x64
+		{4CCE1950-521C-41AD-AB37-368F650465B8}.Release|Win32.ActiveCfg = Release|Win32
+		{4CCE1950-521C-41AD-AB37-368F650465B8}.Release|Win32.Build.0 = Release|Win32
+		{4CCE1950-521C-41AD-AB37-368F650465B8}.Release|x64.ActiveCfg = Release|x64
+		{4CCE1950-521C-41AD-AB37-368F650465B8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
