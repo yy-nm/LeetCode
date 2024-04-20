@@ -343,6 +343,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "237. Delete Node in a Linke
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "238. Product of Array Except Self", "238. Product of Array Except Self\238. Product of Array Except Self.vcxproj", "{E979829B-3E37-4CEB-8B5E-BB193C0E111A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "240. Search a 2D Matrix II", "240. Search a 2D Matrix II\240. Search a 2D Matrix II.vcxproj", "{411EF53D-6CA1-415F-8705-E92CCE308315}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "242. Valid Anagram", "242. Valid Anagram\242. Valid Anagram.vcxproj", "{41531FEF-8AF2-4D32-B245-48F2F8D858E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1711,6 +1715,22 @@ Global
 		{E979829B-3E37-4CEB-8B5E-BB193C0E111A}.Release|Win32.Build.0 = Release|Win32
 		{E979829B-3E37-4CEB-8B5E-BB193C0E111A}.Release|x64.ActiveCfg = Release|x64
 		{E979829B-3E37-4CEB-8B5E-BB193C0E111A}.Release|x64.Build.0 = Release|x64
+		{411EF53D-6CA1-415F-8705-E92CCE308315}.Debug|Win32.ActiveCfg = Debug|Win32
+		{411EF53D-6CA1-415F-8705-E92CCE308315}.Debug|Win32.Build.0 = Debug|Win32
+		{411EF53D-6CA1-415F-8705-E92CCE308315}.Debug|x64.ActiveCfg = Debug|x64
+		{411EF53D-6CA1-415F-8705-E92CCE308315}.Debug|x64.Build.0 = Debug|x64
+		{411EF53D-6CA1-415F-8705-E92CCE308315}.Release|Win32.ActiveCfg = Release|Win32
+		{411EF53D-6CA1-415F-8705-E92CCE308315}.Release|Win32.Build.0 = Release|Win32
+		{411EF53D-6CA1-415F-8705-E92CCE308315}.Release|x64.ActiveCfg = Release|x64
+		{411EF53D-6CA1-415F-8705-E92CCE308315}.Release|x64.Build.0 = Release|x64
+		{41531FEF-8AF2-4D32-B245-48F2F8D858E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41531FEF-8AF2-4D32-B245-48F2F8D858E9}.Debug|Win32.Build.0 = Debug|Win32
+		{41531FEF-8AF2-4D32-B245-48F2F8D858E9}.Debug|x64.ActiveCfg = Debug|x64
+		{41531FEF-8AF2-4D32-B245-48F2F8D858E9}.Debug|x64.Build.0 = Debug|x64
+		{41531FEF-8AF2-4D32-B245-48F2F8D858E9}.Release|Win32.ActiveCfg = Release|Win32
+		{41531FEF-8AF2-4D32-B245-48F2F8D858E9}.Release|Win32.Build.0 = Release|Win32
+		{41531FEF-8AF2-4D32-B245-48F2F8D858E9}.Release|x64.ActiveCfg = Release|x64
+		{41531FEF-8AF2-4D32-B245-48F2F8D858E9}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
