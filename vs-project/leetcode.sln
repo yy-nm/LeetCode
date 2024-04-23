@@ -353,6 +353,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "164. Maximum Gap", "164. Ma
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1768. Merge Strings Alternately", "1768. Merge Strings Alternately\1768. Merge Strings Alternately.vcxproj", "{81C6BCCA-611A-4FF1-9A7B-3AD450292EA9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "283. Move Zeroes", "283. Move Zeroes\283. Move Zeroes.vcxproj", "{B190676C-A15A-499F-AFB4-E790B4340580}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1761,6 +1763,14 @@ Global
 		{81C6BCCA-611A-4FF1-9A7B-3AD450292EA9}.Release|Win32.Build.0 = Release|Win32
 		{81C6BCCA-611A-4FF1-9A7B-3AD450292EA9}.Release|x64.ActiveCfg = Release|x64
 		{81C6BCCA-611A-4FF1-9A7B-3AD450292EA9}.Release|x64.Build.0 = Release|x64
+		{B190676C-A15A-499F-AFB4-E790B4340580}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B190676C-A15A-499F-AFB4-E790B4340580}.Debug|Win32.Build.0 = Debug|Win32
+		{B190676C-A15A-499F-AFB4-E790B4340580}.Debug|x64.ActiveCfg = Debug|x64
+		{B190676C-A15A-499F-AFB4-E790B4340580}.Debug|x64.Build.0 = Debug|x64
+		{B190676C-A15A-499F-AFB4-E790B4340580}.Release|Win32.ActiveCfg = Release|Win32
+		{B190676C-A15A-499F-AFB4-E790B4340580}.Release|Win32.Build.0 = Release|Win32
+		{B190676C-A15A-499F-AFB4-E790B4340580}.Release|x64.ActiveCfg = Release|x64
+		{B190676C-A15A-499F-AFB4-E790B4340580}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
